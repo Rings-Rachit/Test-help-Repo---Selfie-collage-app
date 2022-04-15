@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Artifika&family=Didact+Gothic&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <center>
+        <h1 id="title"> Welcome to the Web Collage App!</h1>
+        <h6>By <b>Rachit Srivastava</b>, Feb. 2022</h6>
+        <hr>
+        <h4 id="note"> PS: If this is your first time, then I want you to click the allow button for the pop-up that coming in your top right, capiche? <br>
+             Without this, the whole thing doesn't work. After that, speak a command. Have fun! :-)</h4>
+        <h3>Say "selfie" to take your selfies and to make a collage.</h3>
+        <button onclick="send();" style="margin-bottom:10px" class="btn btn-primary">Begin!</button><br>
+        <label> The section below is your camera section.</label><br>
+        <div id="camera">
+           
+        </div>
+        <kbd>Note: All selfies are to be displayed here:</kbd>
+        <div id="resultRow"></div>
+            <div id="result1"></div>
+            <div id="result2"></div>
+            <div id="result3"></div>
+        </div>
+    
+    </center>
+
+    <div id="footer"><h5> Developed by Rachit Srivastava</h5></div>
+<script src="main.js"></script>
+</body>
+
+</html>

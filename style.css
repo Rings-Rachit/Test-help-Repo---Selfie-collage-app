@@ -1,0 +1,41 @@
+body{
+     background-image: linear-gradient(180deg, indianred, #48b1bf);  
+}
+#title{
+    font-family:'Didact Gothic', sans-serif;
+    font-size:100px;
+}
+#note{
+    font-family: 'Artifika', serif;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    font-family:'Didact Gothic', sans-serif;
+    background-color:darkseagreen;
+    font-size:15px;
+    height:30px;
+}
+#camera{
+    height:200px;
+    width:350px;
+    border-color:#c4dbff;
+}
+.collage{
+    width:30%;
+    height:300px;
+    border-radius:50px;
+    padding:5px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2);
+    float:left;
+}
+.collage:hover{
+    width:25%;
+    height:200px;
+}
+#resultRow{
+    margin-left:7.5%;
+}
+
